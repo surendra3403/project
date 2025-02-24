@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Life University</title>
     <link rel="stylesheet" href="clg.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
 </head>
 <body>
     <section class="mainsection">
         <nav>
-            <a href="collage web page.html"><img src="https://www.kindpng.com/picc/m/680-6806063_university-logo-design-school-cartoon-png-and-vector.png" alt="logo"></a>
-            <div class="nav-link">
+            <a href="collage web page.html"><img src="https://kiranmai123890.github.io/csstask/images/logo.png" alt="logo"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href=""><b>HOME</b></a></li>
                     <li><a href=""><b>ABOUT</b></a></li>
@@ -20,7 +22,174 @@
                 </ul>
 
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+        <div class="text-box">
+            <h1>India top 4th University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tenetur nesciunt perspiciatis illum eos, similique non.</p>
+            <a href="" class="mainPage-button">Visit to know more</a>
+        </div>
     </section>
+
+
+
+<!------course------>
+
+    <section class="course">
+        <h1>Courses we Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+
+            <div class="cours-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit consequuntur neque earum atque nam illo, perspiciatis inventore eos accusamus dicta odit autem voluptatibus ipsum obcaecati, quod libero ratione a itaque odio cumque, aperiam quo praesentium perferendis! Nisi, maiores odio exercitationem facilis quasi qui architecto aspernatur numquam saepe cumque ipsa pariatur!</p>
+            </div>
+
+            <div class="cours-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit consequuntur neque earum atque nam illo, perspiciatis inventore eos accusamus dicta odit autem voluptatibus ipsum obcaecati, quod libero ratione a itaque odio cumque, aperiam quo praesentium perferendis! Nisi, maiores odio exercitationem facilis quasi qui architecto aspernatur numquam saepe cumque ipsa pariatur!</p>
+            </div>
+
+            <div class="cours-col">
+                <h3>BTech</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit consequuntur neque earum atque nam illo, perspiciatis inventore eos accusamus dicta odit autem voluptatibus ipsum obcaecati, quod libero ratione a itaque odio cumque, aperiam quo praesentium perferendis! Nisi, maiores odio exercitationem facilis quasi qui architecto aspernatur numquam saepe cumque ipsa pariatur!</p>
+            </div>
+
+        </div>
+    </section>
+
+
+<!-- campus -->
+
+    <section class="campus">
+        <h1>Our Campus Located In </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, dolore natus. Beatae exercitationem quo non?</p>
+
+        <div class="row">
+
+            <div class="campus-row">
+                <img src="https://st4.depositphotos.com/11328482/38574/i/450/depositphotos_385740936-stock-photo-couple-beautiful-students-standing-university.jpg" alt="">
+                <div class="layer">
+                    <h3>Kandukur</h3>
+                </div>
+            </div>
+            
+            <div class="campus-row">
+                <img src="https://www.iul.ac.in/hostel/HostelAdmin/Image/20200611212553680IUL_8074.JPG" alt="">
+                <div class="layer">
+                    <h3>Ongole</h3>
+                </div>
+            </div>
+
+            <div class="campus-row">
+                <img src="https://media.istockphoto.com/id/1097864144/photo/day-at-the-campus.jpg?s=612x612&w=0&k=20&c=UIHQBd7Za6I_4PcONyuzyDmAIB0IrD1uyjndjhtD6rw=" alt="">
+                <div class="layer">
+                    <h3>Nellor</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+
+            <div class="facilities-col">
+                <img src="https://images.tech.co/wp-content/uploads/2015/08/libraries.jpg" alt="">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse sunt itaque qui voluptate hic dolorum reprehenderit saepe libero exercitationem.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Furen-high-school-playground-wuxi-china.jpg" alt="">
+                <h3>Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse sunt itaque qui voluptate hic dolorum reprehenderit saepe libero exercitationem.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="https://rbscollege.ac.in/web/images/canteen.jpg" alt="">
+                <h3>Canteen</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse sunt itaque qui voluptate hic dolorum reprehenderit saepe libero exercitationem.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+<!-- ....testimonial.. -->
+
+    <section class="testimonial">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, voluptates!</p>
+
+        <div class="test-col">
+            <img src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ=" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, quidem animi. Repellendus quis fugiat officiis ex eaque, incidunt, quasi maiores earum laudantium consequuntur voluptates</p>
+                <h3>Anitha</h3>
+            </div>
+        </div>
+
+        <div class="test-col">
+            <img src="https://t3.ftcdn.net/jpg/05/13/31/64/360_F_513316492_ABGWM9UazRQOpx0HCQArhhUobwScxaRJ.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, quidem animi. Repellendus quis fugiat officiis ex eaque, incidunt, quasi maiores earum laudantium consequuntur voluptates magni?<br><b>contact: </b>7893293569
+                </p>
+                <h3>Krishna</h3>
+            </div>
+        </div>
+        <div class="test-col">
+            <img src="https://artriva.com/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_XL.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, quidem animi. Repellendus quis fugiat officiis ex eaque, incidunt, quasi maiores earum laudantium consequuntur voluptates magni?
+                </p>
+                <h3>Sumanth</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- .....cal to action -->
+
+    <section class="cta">
+        <h1>Enroll for Our Various Online Courses <br>Anywhere From The AP</h1>
+        <a href="" class="mainPage-button"><b>CONTACT US</b></a>
+    </section>
+
+    <!-- .........footer... -->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia nihil quia tempore error eveniet quae dolorum! Blanditiis non illo harum asperiores, tempora nulla obcaecati enim voluptatem reiciendis minima odio illum.</P>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy Tutorials</p>
+    </section>
+
+
+
+
+    <!-- .......js-script... -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.rightm = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
